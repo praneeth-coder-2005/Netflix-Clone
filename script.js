@@ -86,15 +86,19 @@ const addToListBtn = document.getElementById('addToListBtn');
 
 if (playBtn) {
     playBtn.addEventListener('click', () => {
-        // Implement the play functionality here
+        // Redirect to the movie details page or implement play functionality
         alert('Play button clicked');
+        // You can redirect to the movie details page here
+        // window.location.href = 'movie-details.html';
     });
 }
 
 if (moreInfoBtn) {
     moreInfoBtn.addEventListener('click', () => {
-        // Implement the more info functionality here
+        // Redirect to the movie details page or implement more info functionality
         alert('More Info button clicked');
+        // You can redirect to the movie details page here
+        // window.location.href = 'movie-details.html';
     });
 }
 
