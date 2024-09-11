@@ -10,30 +10,28 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Browse</a></li>
-                <li><a href="#">My List</a></li>
-                <li><a href="#">Search</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="my-list.html">My List</a></li>
+                <li><a href="search.html">Search</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <img src="hero-image.jpg" alt="Hero Image">
+            <img src="hero-image.jpg" alt="Hero Image" class="hero-image">
             <div class="hero-content">
                 <h1>Featured Movie</h1>
                 <p>Description of the featured movie goes here.</p>
-                <button>Play</button>
-                <button>More Info</button>
+                <button id="playBtn">Play</button>
+                <button id="moreInfoBtn">More Info</button>
             </div>
         </section>
 
         <section class="content-section">
             <h2>Popular on Netflix</h2>
-            <div class="movie-container">
-                <!-- Movies will be dynamically added here -->
-            </div>
+            <div id="movie-container" class="movie-container"></div>
         </section>
     </main>
 
