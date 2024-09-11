@@ -78,3 +78,29 @@ if (searchBtn) {
         });
     });
 }
+
+// Functionality for buttons on the home page
+const playBtn = document.getElementById('playBtn');
+const moreInfoBtn = document.getElementById('moreInfoBtn');
+const addToListBtn = document.getElementById('addToListBtn');
+
+if (playBtn) {
+    playBtn.addEventListener('click', () => {
+        // Implement the play functionality here
+        alert('Play button clicked');
+    });
+}
+
+if (moreInfoBtn) {
+    moreInfoBtn.addEventListener('click', () => {
+        // Implement the more info functionality here
+        alert('More Info button clicked');
+    });
+}
+
+if (addToListBtn) {
+    addToListBtn.addEventListener('click', () => {
+        // Implement the add to list functionality here
+        alert('Add to List button clicked');
+    });
+}
