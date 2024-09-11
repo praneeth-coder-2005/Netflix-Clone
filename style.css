@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    background-color: #e50914;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.movie-card {
+    background-color: #222;
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.movie-card img {
+    width: 100%;
+}
+
+.movie-card h3 {
+    padding: 10px;
+    font-size: 14px;
+}
