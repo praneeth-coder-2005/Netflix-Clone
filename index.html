@@ -8,25 +8,37 @@
 </head>
 <body>
     <header>
-        <h1>My Netflix Clone</h1>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Browse</a></li>
+                <li><a href="#">My List</a></li>
+                <li><a href="#">Search</a></li>
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <section id="content">
-            <h2>Popular Movies</h2>
-            <div id="movie-container"></div>
+        <section class="hero">
+            <img src="hero-image.jpg" alt="Hero Image">
+            <div class="hero-content">
+                <h1>Featured Movie</h1>
+                <p>Description of the featured movie goes here.</p>
+                <button>Play</button>
+                <button>More Info</button>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>Popular on Netflix</h2>
+            <div class="movie-container">
+                <!-- Movies will be dynamically added here -->
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Netflix Clone. All rights reserved.</p>
+        <p>&copy; 2024 Netflix Clone</p>
     </footer>
 
     <script src="script.js"></script>
